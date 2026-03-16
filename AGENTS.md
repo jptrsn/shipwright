@@ -62,12 +62,19 @@ Read these docs before making changes to any component:
 - `docs/TDD.md` — Test-driven development process (mandatory for all code changes)
 - `docs/TEST_SETUP.md` — Test infrastructure: how to write and run tests per component
 - `docs/STORY_TEMPLATE.md` — Template for creating user stories
+- `docs/personas/PERSONA_GUIDE.md` — Persona system rules (read on first interaction)
 
 <!-- Add per-component spec docs here. Examples:
 - `docs/API.md` — REST API specification
 - `docs/FRONTEND.md` — Frontend architecture and component library
 - `docs/DATABASE.md` — Database schema and migration strategy
 -->
+
+## Persona System
+
+On first interaction, read `docs/personas/PERSONA_GUIDE.md` and `docs/personas/senior-engineer.md`. The Senior Engineer is the default persona — it handles onboarding, orients the user in the development process, and routes to specialist personas when their domain is relevant.
+
+Specialist persona files are in `docs/personas/`. Load them one at a time, on demand, following the routing and guidance level rules in PERSONA_GUIDE.md.
 
 ## Project Structure
 
@@ -77,6 +84,7 @@ Read these docs before making changes to any component:
   [component-1]/    — [Language/framework, brief purpose]
   [component-2]/    — [Language/framework, brief purpose]
   docs/             — Technical specifications
+    personas/       — Persona definitions for guided development
   stories/          — User stories organized by phase
   test-fixtures/    — Shared test data for cross-component contract tests
 ```
