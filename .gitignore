@@ -1,0 +1,39 @@
+# ============================================
+# Agentic Development Template .gitignore
+# Customize for your project's tech stack
+# ============================================
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+
+# ---------- Secrets / Credentials ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+
+# ---------- Build Artifacts ----------
+# Add your project-specific build output directories here
+# Examples:
+# build/
+# dist/
+# out/
+# target/
+# node_modules/
+# __pycache__/
+# *.pyc
+# .dart_tool/
