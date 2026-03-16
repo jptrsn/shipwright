@@ -45,7 +45,7 @@ This template provides the process, structure, and documentation scaffolding for
 
 **New project:** Use this as a GitHub template repo, or clone and remove the git history:
 ```bash
-git clone https://github.com/[you]/agentic-dev-template.git my-project
+git clone https://github.com/jptrsn/agentic-dev-template.git my-project
 cd my-project
 rm -rf .git
 git init
@@ -54,7 +54,7 @@ git add -A && git commit -m "initialize from agentic dev template"
 
 **Existing project:** Add as a reference and copy the files you need:
 ```bash
-git clone https://github.com/[you]/agentic-dev-template.git /tmp/template
+git clone https://github.com/jptrsn/agentic-dev-template.git /tmp/template
 cp -r /tmp/template/{AGENTS.md,ARCHITECTURE.md,BACKLOG.md,CONTRIBUTING.md,.github,docs,stories,test-fixtures,setup-agents.sh} /path/to/your/repo/
 ```
 
